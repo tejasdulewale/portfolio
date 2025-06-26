@@ -1,0 +1,42 @@
+
+.mywork{
+    /* width: 100%; */
+    padding-top: 30px;
+}
+.workname{
+    height: 40px ;
+    width: 150px;
+    /* border: 1px solid red; */
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    padding-inline: 14px;
+    border-radius: 10px;
+    background-color: #042b4c;
+    margin-left: 80px;
+}
+
+.recentproject{
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-block: 20px;
+    font-weight: 800;
+    margin-left: 80px;
+
+}
+
+.projectcardcontainer{
+    width: 100%;
+    margin-block: 50px;
+    height: 50vh;
+    /* background-color: red; */
+    margin-inline: 0px;
+    padding-inline: 50px;
+}

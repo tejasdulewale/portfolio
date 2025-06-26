@@ -1,0 +1,21 @@
+.workcard{
+    height: 120px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #112436;
+    border: 1px solid #ffffff1f;
+}
+
+.workcard .number{
+    font-size: 28px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.numberspan{
+    font-size: 20px; 
+    color: #ede6e686;
+}

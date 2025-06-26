@@ -1,0 +1,24 @@
+.mobilemenu{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding-left: 70px;
+    padding-block: 15px;
+    display: none;
+}
+
+.mobilemenu a{
+    font-size: 22px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.mobilemenu a:hover{
+     color: #cac5c5;
+  transition: color 0.4s ease-in-out;
+}

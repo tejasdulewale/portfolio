@@ -1,0 +1,47 @@
+.projectcard{
+    height: 300px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 16px rgba(0, 0, 11, 0.377);
+    background-color: #fff;
+   
+
+}
+.projectcard:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+.image{
+    height: 70%;
+    width: 100%;
+    border-radius: 15px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.image img:hover{
+    transform: scale(0.9);
+    transition: all 0.3s;
+    border-radius: 15px;
+    margin-block: 10px;
+}
+
+.projectname{
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    margin-block: 10px;
+    letter-spacing: 3px;
+}
+
+.projectdesc{
+    font-size: 18px;
+    text-transform: lowercase;
+    color: rgb(75, 73, 73);
+    font-weight: 400;
+
+}
