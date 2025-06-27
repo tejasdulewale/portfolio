@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/experience.css'
+import ExperienceCard from './ExperienceCard'
 
 const Experience = () => {
   return (
@@ -8,7 +9,8 @@ const Experience = () => {
         <div className="exoeriencehead">My Work <span className='experienacehighlight'>Experience</span></div>
 
         <div className="experiencecontainer">
-          
+          <ExperienceCard/>
+          <ExperienceCard/>
         </div>
     </div>
   )

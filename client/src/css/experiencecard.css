@@ -1,0 +1,60 @@
+.experiancecard{
+    height: 450px;
+    padding-bottom: 20px;
+    width: 450px;
+    /* border: 1px solid red; */
+    background-color: #052d53;
+    border-radius: 50px 20px ;
+    cursor: pointer;
+}
+
+.post{
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+   padding-block: 30px;
+   text-align: center;
+}
+.companyname{
+    font-size: 20px;
+    color: rgb(184, 177, 177);
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-inline: 40px;
+    margin-block: 10px;
+}
+.time{
+    color: white;
+    text-transform: capitalize;
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: blue;
+    margin-inline: 40px;
+    margin-block: 20px;
+}
+
+.aboutcompany{
+    font-size: 28px;
+    color: rgb(241, 233, 233);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-inline: 40px;
+    margin-block: 30px;
+}
+.companydesc{
+    color: rgb(152, 146, 146);
+    line-height: 22px;
+    /* text-align: justify; */
+    margin-block: 30px;
+    margin-inline: 40px;
+    font-size: 18px;
+    text-transform: lowercase;
+}
