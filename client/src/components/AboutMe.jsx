@@ -6,8 +6,6 @@ const AboutMe = () => {
   return (
     <div className="about" id="about">
       <div className="aboutimg"><img src={posterImage} alt="" /></div>
-      
-      
       <div className="aboutContent">
         <div className="aboutme">about me</div>
         <h2 className="heading">
@@ -27,12 +25,10 @@ const AboutMe = () => {
         <div className="workcards">
           <WorkCard number={1}  category={"Experienace"}/>
           <WorkCard number={5}  category={"projects"}/>
-        
         </div>
        <button className="btn2">get in touch</button>
       </div>
     </div>
   );
 };
-
 export default AboutMe;
