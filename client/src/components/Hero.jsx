@@ -14,7 +14,6 @@ const Hero = () => {
             i'm <TypewriterSpan />{" "}
           </span>
         </h1>
-
         <p className="decreption">
           I am a passionate <span className="highlight">Web Developer</span>{" "}
           with a keen interest in creating dynamic and responsive web
@@ -36,5 +35,4 @@ const Hero = () => {
     </div>
   );
 };
-
 export default Hero;
