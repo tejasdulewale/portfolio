@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../css/header.css";
 import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
-
 const Header = () => {
   const [activeLink, setActiveLink] = useState("Home");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // Add state for mobile menu
@@ -71,10 +70,6 @@ const Header = () => {
     </div>
     <MobileMenu open={isMobileMenuOpen} onClose={() => setIsMobileMenuOpen(false)} />
     </>
-    
   );
 };
-
-
-
 export default Header;
