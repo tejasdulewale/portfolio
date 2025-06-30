@@ -6,7 +6,6 @@ import "swiper/css/grid";
 import "../css/projectslider.css";
 import { Pagination, Grid } from "swiper/modules";
 import ProjectCard from "./ProjectCard";
-
 export default function ProjectSlide() {
   return (
     <>
@@ -32,7 +31,6 @@ export default function ProjectSlide() {
         <SwiperSlide>
           <ProjectCard />
         </SwiperSlide>
-      
       </Swiper>
     </>
   );
