@@ -11,5 +11,4 @@ const WorkCard = ({number,category}) => {
     </div>
   );
 };
-
 export default WorkCard;
